@@ -13,6 +13,25 @@
   }
 }
 
+h1 {
+  text-align: center;
+  align-items: center;
+
+}
+/* App.css */
+.container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  text-align: center;
+  color: #333;
+}
+
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -21,7 +40,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(6, 103, 194);
 }
 
 .App-link {
