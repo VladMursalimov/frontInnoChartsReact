@@ -15,7 +15,7 @@ const ChartComponent = ({ filteredData }) => {
   // Extract unique years and types
   const years = [...new Set(filteredData.map(item => item.year))];
   const types = [...new Set(filteredData.map(item => item.type))];
-
+  years.reverse();  
   // Find min and max values for scaling the colors
   const values = filteredData.map(item => item.end_year);
   const minValue = Math.min(...values);
